@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B657D31719F43D4E005B3667 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657D31619F43D4E005B3667 /* ForgotPasswordViewController.swift */; };
+		B657D31919F43E25005B3667 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657D31819F43E25005B3667 /* SignInRootViewController.swift */; };
+		B657D31B19F43E35005B3667 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657D31A19F43E35005B3667 /* SignInViewController.swift */; };
+		B657D31D19F43F06005B3667 /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657D31C19F43F06005B3667 /* NewAccountViewController.swift */; };
+		B657D31F19F4473F005B3667 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657D31E19F4473F005B3667 /* DetailViewController.swift */; };
+		B657D32119F44FF7005B3667 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657D32019F44FF7005B3667 /* TermsViewController.swift */; };
+		B657D32319F45360005B3667 /* Welcome2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B657D32219F45360005B3667 /* Welcome2ViewController.swift */; };
 		B6B5825A19F40DF300C72C34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5825919F40DF300C72C34 /* AppDelegate.swift */; };
 		B6B5825C19F40DF300C72C34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5825B19F40DF300C72C34 /* ViewController.swift */; };
 		B6B5825F19F40DF300C72C34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B5825D19F40DF300C72C34 /* Main.storyboard */; };
 		B6B5826119F40DF300C72C34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B5826019F40DF300C72C34 /* Images.xcassets */; };
 		B6B5826419F40DF300C72C34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6B5826219F40DF300C72C34 /* LaunchScreen.xib */; };
 		B6B5827019F40DF300C72C34 /* Assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5826F19F40DF300C72C34 /* Assignment1Tests.swift */; };
+		B6CAA19D19F412E80085DB76 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CAA19C19F412E80085DB76 /* CreateAccountRootViewController.swift */; };
+		B6CAA1A119F417E30085DB76 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CAA1A019F417E30085DB76 /* CreateAccountViewController.swift */; };
+		B6CAA1A919F428050085DB76 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CAA1A819F428050085DB76 /* SettingsViewController.swift */; };
+		B6CAA1AB19F429E70085DB76 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CAA1AA19F429E70085DB76 /* PhotosViewController.swift */; };
+		B6CAA1AD19F42FB00085DB76 /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CAA1AC19F42FB00085DB76 /* FilesViewController.swift */; };
+		B6CAA1AF19F430590085DB76 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CAA1AE19F430590085DB76 /* TabViewController.swift */; };
+		B6CAA1B119F431B10085DB76 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CAA1B019F431B10085DB76 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B657D31619F43D4E005B3667 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		B657D31819F43E25005B3667 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		B657D31A19F43E35005B3667 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		B657D31C19F43F06005B3667 /* NewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
+		B657D31E19F4473F005B3667 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B657D32019F44FF7005B3667 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		B657D32219F45360005B3667 /* Welcome2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome2ViewController.swift; sourceTree = "<group>"; };
 		B6B5825419F40DF300C72C34 /* Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B5825819F40DF300C72C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6B5825919F40DF300C72C34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +57,13 @@
 		B6B5826919F40DF300C72C34 /* Assignment1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B5826E19F40DF300C72C34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6B5826F19F40DF300C72C34 /* Assignment1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1Tests.swift; sourceTree = "<group>"; };
+		B6CAA19C19F412E80085DB76 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		B6CAA1A019F417E30085DB76 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		B6CAA1A819F428050085DB76 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B6CAA1AA19F429E70085DB76 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		B6CAA1AC19F42FB00085DB76 /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		B6CAA1AE19F430590085DB76 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		B6CAA1B019F431B10085DB76 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +111,20 @@
 				B6B5826019F40DF300C72C34 /* Images.xcassets */,
 				B6B5826219F40DF300C72C34 /* LaunchScreen.xib */,
 				B6B5825719F40DF300C72C34 /* Supporting Files */,
+				B6CAA19C19F412E80085DB76 /* CreateAccountRootViewController.swift */,
+				B657D31819F43E25005B3667 /* SignInRootViewController.swift */,
+				B6CAA1A019F417E30085DB76 /* CreateAccountViewController.swift */,
+				B6CAA1A819F428050085DB76 /* SettingsViewController.swift */,
+				B6CAA1AA19F429E70085DB76 /* PhotosViewController.swift */,
+				B6CAA1AC19F42FB00085DB76 /* FilesViewController.swift */,
+				B6CAA1AE19F430590085DB76 /* TabViewController.swift */,
+				B6CAA1B019F431B10085DB76 /* WelcomeViewController.swift */,
+				B657D31619F43D4E005B3667 /* ForgotPasswordViewController.swift */,
+				B657D31A19F43E35005B3667 /* SignInViewController.swift */,
+				B657D31C19F43F06005B3667 /* NewAccountViewController.swift */,
+				B657D31E19F4473F005B3667 /* DetailViewController.swift */,
+				B657D32019F44FF7005B3667 /* TermsViewController.swift */,
+				B657D32219F45360005B3667 /* Welcome2ViewController.swift */,
 			);
 			path = Assignment1;
 			sourceTree = "<group>";
@@ -212,8 +254,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CAA1A119F417E30085DB76 /* CreateAccountViewController.swift in Sources */,
+				B6CAA1B119F431B10085DB76 /* WelcomeViewController.swift in Sources */,
+				B657D31719F43D4E005B3667 /* ForgotPasswordViewController.swift in Sources */,
+				B6CAA19D19F412E80085DB76 /* CreateAccountRootViewController.swift in Sources */,
+				B657D32319F45360005B3667 /* Welcome2ViewController.swift in Sources */,
+				B657D32119F44FF7005B3667 /* TermsViewController.swift in Sources */,
+				B657D31D19F43F06005B3667 /* NewAccountViewController.swift in Sources */,
 				B6B5825C19F40DF300C72C34 /* ViewController.swift in Sources */,
+				B6CAA1AB19F429E70085DB76 /* PhotosViewController.swift in Sources */,
 				B6B5825A19F40DF300C72C34 /* AppDelegate.swift in Sources */,
+				B657D31919F43E25005B3667 /* SignInRootViewController.swift in Sources */,
+				B657D31B19F43E35005B3667 /* SignInViewController.swift in Sources */,
+				B6CAA1AF19F430590085DB76 /* TabViewController.swift in Sources */,
+				B6CAA1AD19F42FB00085DB76 /* FilesViewController.swift in Sources */,
+				B6CAA1A919F428050085DB76 /* SettingsViewController.swift in Sources */,
+				B657D31F19F4473F005B3667 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +461,7 @@
 				B6B5827519F40DF300C72C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6B5827619F40DF300C72C34 /* Build configuration list for PBXNativeTarget "Assignment1Tests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +470,7 @@
 				B6B5827819F40DF300C72C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
